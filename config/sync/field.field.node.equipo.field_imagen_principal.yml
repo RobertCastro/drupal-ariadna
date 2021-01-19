@@ -1,0 +1,38 @@
+uuid: 1e1f129a-7653-42b9-b491-8d0122f4938f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_imagen_principal
+    - node.type.equipo
+  module:
+    - image
+id: node.equipo.field_imagen_principal
+field_name: field_imagen_principal
+entity_type: node
+bundle: equipo
+label: 'Imagen Principal'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

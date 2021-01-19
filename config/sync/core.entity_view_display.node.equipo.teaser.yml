@@ -1,0 +1,37 @@
+uuid: fbb85afb-8229-44b8-8c62-83726b9d2e11
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.equipo.body
+    - field.field.node.equipo.field_descripcion
+    - field.field.node.equipo.field_imagen_principal
+    - field.field.node.equipo.field_precio
+    - node.type.equipo
+  module:
+    - text
+    - user
+id: node.equipo.teaser
+targetEntityType: node
+bundle: equipo
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_descripcion: true
+  field_imagen_principal: true
+  field_precio: true
+  langcode: true

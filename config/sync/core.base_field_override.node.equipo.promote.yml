@@ -1,0 +1,22 @@
+uuid: 2ad90ac9-02ce-4c90-afe4-da2fdcd38424
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.equipo
+id: node.equipo.promote
+field_name: promote
+entity_type: node
+bundle: equipo
+label: 'Promocionado a la página principal'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

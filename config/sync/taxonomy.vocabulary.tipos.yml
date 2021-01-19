@@ -1,0 +1,8 @@
+uuid: f0a6e879-7a2a-4c35-ab59-dbc08b2e5910
+langcode: es
+status: true
+dependencies: {  }
+name: Tipos
+vid: tipos
+description: 'Tipos de equipos'
+weight: 0

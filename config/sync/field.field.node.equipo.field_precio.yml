@@ -1,0 +1,23 @@
+uuid: ff39e59a-e618-4554-8433-5823972dbdd2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_precio
+    - node.type.equipo
+id: node.equipo.field_precio
+field_name: field_precio
+entity_type: node
+bundle: equipo
+label: Precio
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

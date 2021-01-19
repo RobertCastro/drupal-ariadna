@@ -1,0 +1,60 @@
+uuid: da01b7c2-2221-433c-9a5a-878325a737ff
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.equipo.body
+    - field.field.node.equipo.field_descripcion
+    - field.field.node.equipo.field_imagen_principal
+    - field.field.node.equipo.field_precio
+    - node.type.equipo
+  module:
+    - image
+    - text
+    - user
+id: node.equipo.default
+targetEntityType: node
+bundle: equipo
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_descripcion:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_imagen_principal:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_precio:
+    weight: 104
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

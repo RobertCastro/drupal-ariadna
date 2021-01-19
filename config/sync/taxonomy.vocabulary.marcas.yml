@@ -1,0 +1,8 @@
+uuid: 082fc628-bac8-4bd3-8c83-529215f18126
+langcode: es
+status: true
+dependencies: {  }
+name: Marcas
+vid: marcas
+description: 'Marcas de equipos'
+weight: 0

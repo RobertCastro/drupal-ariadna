@@ -1,0 +1,11 @@
+uuid: beeccc8b-342e-4054-8b63-1b3b3c74e96c
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.marcas
+id: taxonomy_term.marcas
+target_entity_type_id: taxonomy_term
+target_bundle: marcas
+default_langcode: site_default
+language_alterable: false
