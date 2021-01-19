@@ -1,0 +1,23 @@
+uuid: 97bf3bb3-36ba-400c-9b54-9bee2c450018
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_precio
+    - paragraphs.paragraphs_type.plan
+id: paragraph.plan.field_precio
+field_name: field_precio
+entity_type: paragraph
+bundle: plan
+label: Precio
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

@@ -89,7 +89,7 @@ tips:
   views-ui-preview:
     id: views-ui-preview
     plugin: text
-    label: 'Vista previa'
+    label: Preview
     body: 'Muestra una vista previa de la salida de la vista.'
     weight: 10
     location: left

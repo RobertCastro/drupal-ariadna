@@ -4,13 +4,14 @@ status: true
 dependencies:
   config:
     - field.field.node.equipo.body
-    - field.field.node.equipo.field_descripcion
     - field.field.node.equipo.field_imagen_principal
+    - field.field.node.equipo.field_planes
     - field.field.node.equipo.field_precio
     - image.style.thumbnail
     - node.type.equipo
   module:
     - image
+    - paragraphs
     - path
     - text
 id: node.equipo.default
@@ -34,14 +35,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_descripcion:
-    weight: 123
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textfield
-    region: content
   field_imagen_principal:
     weight: 122
     settings:
@@ -49,6 +42,18 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_planes:
+    type: entity_reference_paragraphs
+    weight: 125
+    settings:
+      title: Párrafo
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
     region: content
   field_precio:
     weight: 124

@@ -1,0 +1,10 @@
+uuid: 06b24b5e-a4dd-499b-99cd-63928beeb42b
+langcode: es
+status: true
+dependencies: {  }
+id: plan
+label: Plan
+icon_uuid: null
+icon_default: null
+description: 'Plan de equipo'
+behavior_plugins: {  }

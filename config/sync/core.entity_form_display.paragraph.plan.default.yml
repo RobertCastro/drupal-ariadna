@@ -1,0 +1,31 @@
+uuid: 507b7a53-b1e2-427f-a561-03c57aa843bc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.plan.field_label
+    - field.field.paragraph.plan.field_precio
+    - paragraphs.paragraphs_type.plan
+id: paragraph.plan.default
+targetEntityType: paragraph
+bundle: plan
+mode: default
+content:
+  field_label:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_precio:
+    weight: 1
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+hidden:
+  created: true
+  status: true

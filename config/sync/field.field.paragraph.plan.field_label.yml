@@ -1,0 +1,19 @@
+uuid: 9997e2ea-1dce-47c1-9a54-712d272fee42
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_label
+    - paragraphs.paragraphs_type.plan
+id: paragraph.plan.field_label
+field_name: field_label
+entity_type: paragraph
+bundle: plan
+label: Label
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

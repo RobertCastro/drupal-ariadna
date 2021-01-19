@@ -5,8 +5,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.equipo.body
-    - field.field.node.equipo.field_descripcion
     - field.field.node.equipo.field_imagen_principal
+    - field.field.node.equipo.field_planes
     - field.field.node.equipo.field_precio
     - node.type.equipo
   module:
@@ -31,7 +31,7 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
-  field_descripcion: true
   field_imagen_principal: true
+  field_planes: true
   field_precio: true
   langcode: true

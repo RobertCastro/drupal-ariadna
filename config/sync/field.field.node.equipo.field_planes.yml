@@ -1,0 +1,31 @@
+uuid: 6653cabd-017e-494a-bbf6-401cdfd27d6a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_planes
+    - node.type.equipo
+    - paragraphs.paragraphs_type.plan
+  module:
+    - entity_reference_revisions
+id: node.equipo.field_planes
+field_name: field_planes
+entity_type: node
+bundle: equipo
+label: Planes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      plan: plan
+    target_bundles_drag_drop:
+      plan:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions
