@@ -1,0 +1,14 @@
+uuid: 4b89ca27-b1ff-49df-9a49-42424a98f21e
+name: Drupal
+mail: oneroberth@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: es
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
