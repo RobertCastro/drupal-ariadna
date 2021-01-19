@@ -25,3 +25,6 @@
 /.editorconfig
 /.gitattributes
 
+# Theme config
+web/themes/custom/bootstrap_sass/node_modules/.bin
+web/themes/custom/bootstrap_sass/node_modules/
