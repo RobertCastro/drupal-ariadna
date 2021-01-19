@@ -1,0 +1,14 @@
+format: full_html
+name: 'Drupal Robert'
+mail: oneroberth@gmail.com
+linkonly: false
+textonly: false
+sitestyle: true
+simple_address: false
+preserve_class: false
+advanced:
+  incoming: false
+  key: oBBRSttJYF7HM_ryMF32SYTTGSGCPyRSvC3KuFeoSc0
+_core:
+  default_config_hash: rLKGzzC9TqjbEZiBoiyMpOSyZgldADa5SzvbA2gQDxE
+langcode: es

@@ -1,0 +1,25 @@
+uuid: df2e5d04-f499-4c63-96a5-b29db8be4576
+langcode: es
+status: true
+dependencies:
+  config:
+    - webform.webform.suscripcion_
+  module:
+    - webform
+  theme:
+    - bootstrap_sass
+id: webform
+theme: bootstrap_sass
+region: content
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Newsletter
+  provider: webform
+  label_display: visible
+  webform_id: suscripcion_
+  default_data: ''
+  redirect: false
+visibility: {  }
