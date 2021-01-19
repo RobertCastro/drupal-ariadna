@@ -5,8 +5,10 @@ dependencies:
   config:
     - field.field.node.equipo.body
     - field.field.node.equipo.field_imagen_principal
+    - field.field.node.equipo.field_marca
     - field.field.node.equipo.field_planes
     - field.field.node.equipo.field_precio
+    - field.field.node.equipo.field_tipo
     - image.style.thumbnail
     - node.type.equipo
   module:
@@ -43,6 +45,16 @@ content:
     third_party_settings: {  }
     type: image_image
     region: content
+  field_marca:
+    weight: 126
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   field_planes:
     type: entity_reference_paragraphs
     weight: 125
@@ -61,6 +73,16 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: number
+    region: content
+  field_tipo:
+    weight: 127
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   langcode:
     type: language_select

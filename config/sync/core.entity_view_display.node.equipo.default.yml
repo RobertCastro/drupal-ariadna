@@ -5,8 +5,10 @@ dependencies:
   config:
     - field.field.node.equipo.body
     - field.field.node.equipo.field_imagen_principal
+    - field.field.node.equipo.field_marca
     - field.field.node.equipo.field_planes
     - field.field.node.equipo.field_precio
+    - field.field.node.equipo.field_tipo
     - node.type.equipo
   module:
     - entity_reference_revisions
@@ -34,6 +36,14 @@ content:
     third_party_settings: {  }
     type: image
     region: content
+  field_marca:
+    weight: 106
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
   field_planes:
     type: entity_reference_revisions_entity_view
     weight: 105
@@ -53,6 +63,14 @@ content:
       prefix_suffix: true
     third_party_settings: {  }
     type: number_decimal
+    region: content
+  field_tipo:
+    weight: 107
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
     region: content
   links:
     weight: 100

@@ -1,0 +1,15 @@
+uuid: 880b3cc5-217a-4e11-80b4-223cdbc7022d
+langcode: es
+status: true
+dependencies: {  }
+name: equipo_list_210_301
+label: equipo_list_210_301
+effects:
+  b9f578a0-4df4-4265-aed5-5b808c1654e0:
+    uuid: b9f578a0-4df4-4265-aed5-5b808c1654e0
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 210
+      height: 301
+      anchor: center-center

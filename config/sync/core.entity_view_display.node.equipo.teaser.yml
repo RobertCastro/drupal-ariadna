@@ -6,8 +6,10 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.equipo.body
     - field.field.node.equipo.field_imagen_principal
+    - field.field.node.equipo.field_marca
     - field.field.node.equipo.field_planes
     - field.field.node.equipo.field_precio
+    - field.field.node.equipo.field_tipo
     - node.type.equipo
   module:
     - text
@@ -32,6 +34,8 @@ content:
     region: content
 hidden:
   field_imagen_principal: true
+  field_marca: true
   field_planes: true
   field_precio: true
+  field_tipo: true
   langcode: true
