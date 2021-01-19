@@ -24,3 +24,7 @@
 /.env
 /.editorconfig
 /.gitattributes
+
+# Theme config
+web/themes/custom/bootstrap_barrio/node_modules
+web/themes/custom/bootstrap_barrio/node_modules/.bin
