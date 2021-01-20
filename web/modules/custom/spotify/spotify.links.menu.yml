@@ -1,0 +1,6 @@
+spotify.lanzamientos:
+  title: Lanzamientos
+  description: 'Lanzamientos'
+  route_name: spotify.lanzamientos
+  menu_name: main
+  weight: 1

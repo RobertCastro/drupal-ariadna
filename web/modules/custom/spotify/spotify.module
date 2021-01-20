@@ -1,0 +1,15 @@
+<?php
+
+function spotify_theme()
+{
+    return [
+        'lanzamientos' => [
+            'variables' => ['lanzamientos' => NULL],
+            'template' => 'lanzamientos'
+        ],
+        'artista' => [
+            'variables' => ['artista' => NULL, 'canciones' => NULL],
+            'template' => 'artista'
+        ]
+    ];
+}

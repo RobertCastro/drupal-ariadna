@@ -12,7 +12,7 @@ id: suscripcion_
 title: Suscripción
 description: ''
 category: ''
-elements: "nombre:\n  '#type': textfield\n  '#title': Nombre\n  '#required': true\n  '#required_error': 'El nombre es requerido'\ncorreo_electronico:\n  '#type': email\n  '#title': 'Correo electrónico'\n  '#required': true\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': Suscribirse"
+elements: "'#attributes':\n  class:\n    - newsletter\nnombre:\n  '#type': textfield\n  '#title': Nombre\n  '#required': true\n  '#required_error': 'El nombre es requerido'\ncorreo_electronico:\n  '#type': email\n  '#title': 'Correo electrónico'\n  '#required': true\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': Suscribirse"
 css: ''
 javascript: ''
 settings:
@@ -25,7 +25,7 @@ settings:
   page_submit_path: /suscripcion
   page_confirm_path: ''
   page_theme_name: ''
-  form_title: both
+  form_title: source_entity_webform
   form_submit_once: false
   form_exception_message: ''
   form_open_message: ''
@@ -94,7 +94,7 @@ settings:
   wizard_track: ''
   wizard_prev_button_label: ''
   wizard_next_button_label: ''
-  wizard_toggle: false
+  wizard_toggle: true
   wizard_toggle_show_label: ''
   wizard_toggle_hide_label: ''
   preview: 0

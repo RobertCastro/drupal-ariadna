@@ -27,8 +27,10 @@
         "drupal/core-composer-scaffold": "^8.8.0",
         "drupal/mimemail": "^1.0@alpha",
         "drupal/paragraphs": "^1.12",
+        "drupal/restui": "^1.19",
         "drupal/webform": "^6.0",
         "drush/drush": "^9.7.1 | ^10.0.0",
+        "jwilsson/spotify-web-api-php": "^4.2",
         "vlucas/phpdotenv": "^4.0",
         "webflo/drupal-finder": "^1.0.0",
         "zaporylie/composer-drupal-optimizations": "^1.0"

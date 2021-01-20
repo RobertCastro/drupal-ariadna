@@ -1,0 +1,15 @@
+<div class="row">
+    {% for item in lanzamientos.albums.items %}
+        <div class="col-md-4 py-3 my-3">
+            <img src="{{ item.images[1].url }}" alt="{{ item.name }}">
+            <h3>{{ item.name }}</h3>
+            {% for artist in item.artists %}
+                    <a class="btn btn-dark" href="{{ path('spotify.artista', {'id' : artist.id}) }}" title="{{ artist.name }}">
+                        <i class="fas fa-music"></i>
+                        {{ artist.name }}
+                    </a>
+            {% endfor %}
+        </div>
+    {% endfor %}
+</div>
+
