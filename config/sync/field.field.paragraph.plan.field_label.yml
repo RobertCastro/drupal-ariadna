@@ -9,7 +9,7 @@ id: paragraph.plan.field_label
 field_name: field_label
 entity_type: paragraph
 bundle: plan
-label: Label
+label: Nombre
 description: ''
 required: false
 translatable: false

@@ -213,7 +213,7 @@ handlers:
       from_options: {  }
       from_name: _default
       subject: 'Notificación de suscripción'
-      body: _default
+      body: 'Suscripción exitosa!'
       excluded_elements: {  }
       ignore_access: false
       exclude_empty: true

@@ -1,0 +1,38 @@
+.node__content{
+    // display: flex;
+    // justify-content: space-between;
+    // flex-direction: column;
+
+    .field--name-field-precio,
+    .field--name-field-planes,
+    .field--name-field-marca,
+    .field--name-field-tipo{
+        display: inline-block;
+        width: 20%;
+    }
+
+    .field--name-field-imagen-principal{
+        width: 100%;
+        .field__item{
+            img{
+                margin: 0 auto;
+                display: block;
+                width: 400px;
+                height: auto;
+            }
+        }
+    }
+
+    .field--name-field-planes{
+        .paragraph{
+            .field{
+                display: flex;
+                justify-content: flex-start;
+                .field__label{
+                    margin-right: 20px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

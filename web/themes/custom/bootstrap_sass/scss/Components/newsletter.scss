@@ -1,6 +1,11 @@
-.newsletter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+#block-webform{
+    h2{
+        text-align: center;
+    }
+    .newsletter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
 }
