@@ -213,7 +213,7 @@ handlers:
       from_options: {  }
       from_name: _default
       subject: 'Notificación de suscripción'
-      body: 'Suscripción exitosa!'
+      body: "Suscripci&oacute;n exitosa!\r\n<p>Datos de suscripci&oacute;n:</p>\r\n[webform_submission:values]"
       excluded_elements: {  }
       ignore_access: false
       exclude_empty: true
